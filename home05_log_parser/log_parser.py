@@ -4,9 +4,12 @@ HELP_MESSAGE = """\help - выводит справку по программе
 \show [program] - отобразить файл логов, если задан опциональный аргумент program, отобразить только сообщения конкретной программы.
 \stat - отобразить статистику по программам: имя программы - количество строк в логе, дата первого сообщения, дата последнего сообщения
 \exit - выйти из программы"""
-STAT_MESSAGE = "You are using {}\nCurrent logfile has {} records\nFirst record date is {}\nLast record date is {}"
+STAT_MESSAGE = "\nYou are using {}\n\nCurrent logfile has {} records\n\nFirst record date is {}\nLast record date is {}\n\n"
 EXIT_MESSAGE = "Bye!!"
-UNKNOWN_BEHAVIOUR_MESSAGE = "Unknown behavior of {}, use '\help' to read manual".format(__file__)
+UNKNOWN_BEHAVIOUR_MESSAGE = "Unknown behavior of {}, use '\help' to read manual"
+NO_SUCH_RECORDS = "No records were found for {}"
+HELLO_MESSAGE = "Hello, interactive mode of log_parser.py is running."
+
 logfile = """Oct 11 06:29:45 ubuntu-xenial /usr/lib/snapd/snapd[1089]: snapmgr.go:504: DEBUG: Next refresh scheduled for 2017-10-11 15:06:59.521916388 +0000 UTC.
 Oct 11 06:45:34 ubuntu-xenial kernel: [105959.767002] e1000: enp0s3 NIC Link is Down
 Oct 11 18:16:22 ubuntu-xenial systemd[1]: Time has been changed
@@ -137,12 +140,30 @@ Oct 22 17:43:53 ubuntu-xenial kernel: [    0.000000] RAMDISK: [mem 0x36234000-0x
 Oct 22 17:43:53 ubuntu-xenial kernel: [    0.000000] ACPI: Early table checksum verification disabled
 Oct 22 17:43:53 ubuntu-xenial kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
 Oct 22 17:43:53 ubuntu-xenial kernel: [    0.000000] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)"""
-
 list_of_substrings = logfile.split("\n")
 
 
-def show_option(arg=None):
-    pass
+def non_char_cutter(str_):
+    for char in str_:
+        if not char.isalpha():
+            str_ = str_.replace(char, "")
+    return str_
+
+
+def show_option(str_):
+    set_of_known_programs = {non_char_cutter(_.split()[4]) for _ in list_of_substrings}
+    if len(str_.split()) == 1:
+        return logfile
+    elif len(str_.split()) == 2:
+        program_inputted = str_.split()[1]
+        if program_inputted in set_of_known_programs:
+            cut_list = [_ for _ in list_of_substrings if program_inputted in _.split()[4]]
+            cut_str = "\n".join(cut_list)
+            return cut_str
+        else:
+            return NO_SUCH_RECORDS.format(program_inputted)
+    else:
+        unknown_behaviour()
 
 
 def stat_option():
@@ -158,21 +179,25 @@ def help_option():
     return HELP_MESSAGE
 
 
+def unknown_behaviour():
+    return UNKNOWN_BEHAVIOUR_MESSAGE.format(__file__)
+
+
 def entry_point():
-    print("Hello, interactive mode of log_parser.py is running.")
+    print(HELLO_MESSAGE)
     while True:
         intercept = input("Enter an option: ")
         if intercept == "\stat":
             print(stat_option())
         elif intercept == '\help':
             print(help_option())
-        elif intercept.lower().startswith("\show"):
-            print(show_option())
+        elif intercept.lower().startswith("\show") and len(intercept.split()) < 3:
+            print(show_option(intercept))
         elif intercept == '\exit':
             print(EXIT_MESSAGE)
             sys.exit()
         else:
-            print(UNKNOWN_BEHAVIOUR_MESSAGE)
+            print(unknown_behaviour())
 
 
 if __name__ == '__main__':
