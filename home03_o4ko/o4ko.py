@@ -3,7 +3,7 @@ import random
 import sys
 
 MANUAL_MESSAGE = """Try to earn 21 points. You can draw one card with its own value from 1 to
- 10 until you'll decide its enought"""
+ 10 until you'll decide its enough"""
 MAIN_MENU_MESSAGE = "Welcome to O4KO\n1. Game\n2. Rules\n3. Exit"
 GOODBYE_MESSAGE = "BYE!!"
 UNKNOWN_BEHAVIOUR_MESSAGE = "Unknown decision. Shutting down..."
