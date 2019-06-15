@@ -83,5 +83,5 @@ def start_game():
     sys.exit()
 
 
-if name == 'main':
+if __name__ == '__main__':
     call_menu()
