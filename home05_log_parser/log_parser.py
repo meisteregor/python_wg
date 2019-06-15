@@ -158,10 +158,6 @@ def help_option():
     return HELP_MESSAGE
 
 
-def exit_option():
-    pass
-
-
 def entry_point():
     print("Hello, interactive mode of log_parser.py is running.")
     while True:
