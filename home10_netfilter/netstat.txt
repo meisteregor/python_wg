@@ -1,0 +1,176 @@
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  192.168.100.4.49278    bud02s26-in-f14..http  ESTABLISHED
+tcp4       0      0  192.168.100.4.49277    244-205-57-86.be.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49276    bud02s21-in-f14..https ESTABLISHED
+tcp4       0      0  192.168.100.4.49275    a23-8-7-153.depl.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49273    stackoverflow.co.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49272    a23-8-7-153.depl.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49271    a172-227-124-249.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49270    server-13-33-44-.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49269    104.16.110.18.https    ESTABLISHED
+tcp4     343      0  192.168.100.4.49268    104.16.110.18.https    ESTABLISHED
+tcp4       0      0  192.168.100.4.49267    a23-8-7-153.depl.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49266    192.0.73.2.https       ESTABLISHED
+tcp4       0      0  192.168.100.4.49265    151.101.193.69.https   ESTABLISHED
+tcp4       0      0  192.168.100.4.49264    waw02s07-in-f5.1.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49255    81.198.165.217.http    ESTABLISHED
+tcp4       0      0  192.168.100.4.49251    m-prd-umpxl-adco.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49250    62.67.193.85.http      ESTABLISHED
+tcp4       0      0  192.168.100.4.49249    waw02s08-in-f194.http  CLOSE_WAIT
+tcp4       0      0  192.168.100.4.49247    185.29.135.226.https   ESTABLISHED
+tcp4       0      0  192.168.100.4.49244    a23-193-41-238.d.http  CLOSE_WAIT
+tcp4       0      0  192.168.100.4.49242    a.tribalfusion.c.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49241    a.tribalfusion.c.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49240    152.195.53.78.http     ESTABLISHED
+tcp4       0      0  192.168.100.4.49238    a.tribalfusion.c.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49236    a.tribalfusion.c.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49230    a23-8-7-153.depl.https ESTABLISHED
+tcp4       0      0  192.168.100.4.49226    52.94.218.7.http       ESTABLISHED
+tcp4       0      0  192.168.100.4.49225    bud02s24-in-f14..http  CLOSE_WAIT
+tcp4       0      0  192.168.100.4.49218    a.tribalfusion.c.http  ESTABLISHED
+tcp4       0      0  192.168.100.4.49206    a.tribalfusion.c.http  ESTABLISHED
+tcp4       0      0  192.168.100.4.49205    a.tribalfusion.c.http  ESTABLISHED
+tcp4       0      0  192.168.100.4.49204    a.tribalfusion.c.http  ESTABLISHED
+tcp4       0      0  192.168.100.4.49195    52.94.237.66.http      ESTABLISHED
+tcp4       0      0  192.168.100.4.49193    52.94.237.66.http      ESTABLISHED
+tcp4       0      0  192.168.100.4.49179    199.16.156.120.https   ESTABLISHED
+tcp4       0      0  192.168.100.4.49176    199.96.57.6.https      ESTABLISHED
+tcp4       0      0  192.168.100.4.49175    176.32.103.183.http    ESTABLISHED
+tcp4       0      0  192.168.100.4.49174    176.32.103.183.http    ESTABLISHED
+tcp4       0      0  192.168.100.4.49172    a.tribalfusion.c.http  ESTABLISHED
+tcp4       0      0  192.168.100.4.49169    prg02s12-in-f14..http  CLOSE_WAIT
+tcp4       0      0  192.168.100.4.49168    81.198.165.233.http    ESTABLISHED
+tcp4       0      0  192.168.100.4.49167    a.tribalfusion.c.http  ESTABLISHED
+tcp4       0      0  192.168.100.4.49166    81.198.165.219.http    ESTABLISHED
+tcp4       0      0  192.168.100.4.49163    176.32.96.208.https    ESTABLISHED
+tcp4       0      0  192.168.100.4.49161    199.96.57.6.http       ESTABLISHED
+tcp4       0      0  192.168.100.4.49160    waw02s07-in-f2.1.http  CLOSE_WAIT
+tcp4       0      0  192.168.100.4.49158    tags.expo9.expon.http  ESTABLISHED
+tcp4       0      0  192.168.100.4.65535    81.198.165.219.http    ESTABLISHED
+tcp4       0      0  192.168.100.4.65529    40.127.129.109.https   ESTABLISHED
+tcp4       0      0  192.168.100.4.65528    bud02s23-in-f206.https ESTABLISHED
+tcp4       0      0  192.168.100.4.65502    waw02s07-in-f3.1.https ESTABLISHED
+tcp4       0      0  192.168.100.4.65500    lt-in-f189.1e100.https ESTABLISHED
+tcp4       0      0  192.168.100.4.65499    waw02s07-in-f14..https ESTABLISHED
+tcp4       0      0  192.168.100.4.65494    91.190.216.52.12350    ESTABLISHED
+tcp4       0      0  192.168.100.4.65489    lt-in-f189.1e100.https ESTABLISHED
+tcp4       0      0  192.168.100.4.65486    li-in-f189.1e100.https ESTABLISHED
+tcp4       0      0  192.168.100.4.65483    lo-in-f189.1e100.https ESTABLISHED
+tcp4       0      0  192.168.100.4.65481    ec2-35-176-200-1.https ESTABLISHED
+tcp4       0      0  192.168.100.4.65478    li-in-f108.1e100.imaps ESTABLISHED
+tcp4       0      0  192.168.100.4.65467    17.252.28.98.5223      ESTABLISHED
+tcp4       0      0  192.168.100.4.65464    17.188.166.9.5223      ESTABLISHED
+tcp4       0      0  192.168.100.4.65461    13.69.188.18.https     ESTABLISHED
+tcp4       0      0  192.168.100.4.65454    52.178.214.202.https   ESTABLISHED
+tcp4       0      0  192.168.100.4.65453    64.4.23.150.40026      ESTABLISHED
+udp4       0      0  192.168.100.4.51762    waw02s05-in-f3.1.https
+udp4       0      0  192.168.100.4.52991    bud02s22-in-f206.https
+udp4       0      0  192.168.100.4.60252    bud02s22-in-f206.https
+udp4       0      0  192.168.100.4.58787    waw02s07-in-f2.1.https
+udp4       0      0  192.168.100.4.52095    bud02s23-in-f206.https
+udp4       0      0  *.*                    *.*
+udp6       0      0  *.51049                *.*
+udp4       0      0  *.51049                *.*
+udp6       0      0  *.52293                *.*
+udp4       0      0  *.52293                *.*
+udp4       0      0  192.168.100.4.55133    lm-in-f189.1e100.https
+udp4       0      0  192.168.100.4.59805    lo-in-f189.1e100.https
+udp4       0      0  192.168.100.4.ntp      *.*
+udp6       0      0  fe80::e0:d733:12.ntp   *.*
+udp4       0      0  192.168.100.4.65273    lt-in-f189.1e100.https
+udp6       0      0  *.63433                *.*
+udp4       0      0  *.63433                *.*
+udp4       0      0  192.168.100.4.38930    *.*
+udp6       0      0  fe80::50b8:abff:.ntp   *.*
+udp46      0      0  *.59851                *.*
+udp4       0      0  localhost.59850        *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp6       0      0  fe80::21de:e01a:.ntp   *.*
+udp6       0      0  fe80::1%lo0.ntp        *.*
+udp6       0      0  localhost.ntp          *.*
+udp4       0      0  localhost.ntp          *.*
+udp4       0      0  *.ntp                  *.*
+udp6       0      0  *.ntp                  *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.58380                *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp46      0      0  *.*                    *.*
+udp6       0      0  *.mdns                 *.*
+udp4       0      0  *.mdns                 *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.*                    *.*
+udp4       0      0  *.netbios-ns           *.*
+udp4       0      0  *.netbios-dgm          *.*
+Active Multipath Internet connections
+Proto/ID  Flags      Local Address          Foreign Address        (state)
+Active LOCAL (UNIX) domain sockets
+Address          Type   Recv-Q Send-Q            Inode             Conn             Refs          Nextref Addr
+84c3c52422eaa711 stream      0      0                0 84c3c52422ea9c21                0                0 /var/run/mDNSResponder
+84c3c52422ea9c21 stream      0      0                0 84c3c52422eaa711                0                0
+84c3c5242a8806b1 stream      0      0                0 84c3c5242a87ffa9                0                0
+84c3c5242a87ffa9 stream      0      0                0 84c3c5242a8806b1                0                0
+84c3c5242a87f649 stream      0      0                0 84c3c5242a880459                0                0
+84c3c5242a880459 stream      0      0                0 84c3c5242a87f649                0                0
+84c3c5242a87e389 stream      0      0                0 84c3c5242a87f329                0                0
+84c3c5242a87f329 stream      0      0                0 84c3c5242a87e389                0                0
+84c3c5242a87edb1 stream      0      0                0 84c3c5242a87e519                0                0
+84c3c5242a87e519 stream      0      0                0 84c3c5242a87edb1                0                0
+84c3c5242a87e2c1 stream      0      0                0 84c3c5242a87f711                0                0 /var/run/mDNSResponder
+84c3c5242a87f711 stream      0      0                0 84c3c5242a87e2c1                0                0
+84c3c524244aea91 stream      0      0                0 84c3c524244aec21                0                0 /var/run/mDNSResponder
+84c3c524244aec21 stream      0      0                0 84c3c524244aea91                0                0
+84c3c524244af261 stream      0      0                0 84c3c524244ae839                0                0 /var/run/mDNSResponder
+84c3c524244ae839 stream      0      0                0 84c3c524244af261                0                0
+84c3c524244af649 stream      0      0                0 84c3c524244afe19                0                0 /var/run/mDNSResponder
+84c3c524244afe19 stream      0      0                0 84c3c524244af649                0                0
+84c3c524244ae6a9 stream      0      0                0 84c3c524244adbb9                0                0
+84c3c524244adbb9 stream      0      0                0 84c3c524244ae6a9                0                0
+84c3c524244aef41 stream      0      0                0 84c3c524244af0d1                0                0
+84c3c524244af0d1 stream      0      0                0 84c3c524244aef41                0                0
+84c3c524244ae901 stream      0      0                0 84c3c524244adaf1                0                0 /var/run/mDNSResponder
+84c3c524244adaf1 stream      0      0                0 84c3c524244ae901                0                0
+84c3c5241c9ce201 stream      0      0                0 84c3c5241c9cd969                0                0 /var/run/mDNSResponder
+84c3c5241c9cd969 stream      0      0                0 84c3c5241c9ce201                0                0
+84c3c524244af199 stream      0      0                0 84c3c524244ae9c9                0                0 /var/run/mDNSResponder
+84c3c524244ae9c9 stream      0      0                0 84c3c524244af199                0                0
+84c3c524244ae1f9 stream      0      0                0 84c3c524244adc81                0                0 /var/run/mDNSResponder
+84c3c524244adc81 stream      0      0                0 84c3c524244ae1f9                0                0
+84c3c524244ae069 stream      0      0                0 84c3c524244affa9                0                0 /var/run/mDNSResponder
+84c3c524244affa9 stream      0      0                0 84c3c524244ae069                0                0
+84c3c524244af711 stream      0      0                0 84c3c524244aded9                0                0
+84c3c524244aded9 stream      0      0            ...
