@@ -1,0 +1,8 @@
+# Домашнее задание
+Программа конвертирует текст из упрощенного формата markdown в выбранный пользователем формат.
+Спецификация markdown - https://daringfireball.net/projects/markdown/syntax#block
+Программа поддерживает только тот синтаксис, который используется в фалйе text.md
+Доработать программу - добавить html формат.
+После добавления html, проверить корректно ли программа работает с пустыми строками. Доработать Parser.
+python home06_skeleton.py --input text.md --output-format no
+python home06_skeleton.py --input text.md --output-format html
