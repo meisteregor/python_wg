@@ -1,0 +1,19 @@
+# Домашнее задание
+Разбейте предыдущее задание на пакеты и модули.
+Создайте иерархию классов для ошибок пакета fmt, обработйте ошибки.
+Структура должна быть следующей:
+.
+├── fmt
+│   ├── __init__.py
+│   ├── dec
+│   │   ├── __init__.py
+│   │   └── parser.py       - Markdown Parser
+│   ├── enc
+│   │   ├── __init__.py
+│   │   ├── base.py         - Base format encoder
+│   │   ├── converter.py    - converter
+│   │   ├── html.py         - Html format encoder
+│   │   └── no.py           - No format Encoder
+│   ├── error.py            - Exceptions
+│   └── tokens.py           - tokens: Text, Strong, Em, etc
+└── main.py                 - main program
