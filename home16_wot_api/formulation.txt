@@ -1,0 +1,15 @@
+# ДЗ
+
+Напишите программу, которая запрашивает имя игрока.
+Находит его в списке игроков.
+Находит танки этого игрока. Выбирает танк с самым большим количеством игр
+Выводит на экран информацию об этом танке.
+Картинку танка сохраняет в файл.
+
+https://developers.wargaming.net/reference/all/wot/account/list/
+https://developers.wargaming.net/reference/all/wot/account/tanks/
+https://developers.wargaming.net/reference/all/wot/encyclopedia/vehicles/
+
+
+Примечание:
+для выполнения нужен профиль в developers.wargaming.net, для регистрации которого нужна привязка игрового акка через моблиьный. и внутри нужно создать новый проект по кнопке через веб интерфейс
